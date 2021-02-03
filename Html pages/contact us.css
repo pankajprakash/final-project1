@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+ul li{
+    margin: 0;
+    padding: 0;
+}
+.mainHead{
+    padding: 40px 0;
+}
+
+h1{
+    font-size: 38px;
+}
+
+
+
+/* Header start Here */
+
+
+.outerHeader{
+    background-image: url(/sidekick/contact_us/header_img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+}
+
+
+.leftlogin
+{
+    border: 2px solid #ea144e;
+    padding: 8px 143px ;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.register-btn{
+    /* border-radius: 5px; */
+    padding: 8px 20px ;
+    background: rgb(254,251,250);
+    background: linear-gradient(101deg, rgba(254,251,250,1) 0%, rgba(229,95,28,1) 0%, rgba(232,36,76,1) 100%);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.register
+{
+    
+    color: linear-gradient(101deg, rgba(254,251,250,1) 0%, rgba(229,95,28,1) 0%, rgba(232,36,76,1) 100%);
+}
+
+
+/* Header Ends Here */
+
+
+.top_content
+{
+    color:white;
+}
+
+.navbar
+{
+    padding: 5px;
+}
+.text1
+{
+    padding: 20px;
+}
+
+span{
+    border-bottom:3px solid #ea144e;
+}
