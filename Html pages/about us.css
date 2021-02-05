@@ -85,7 +85,7 @@ h1{
     text-align: justify;
 }
 
-span
+.bottom_border_heading1
 {
     border-bottom: 2px solid #ea144e;
 }
@@ -215,6 +215,32 @@ padding-bottom: 20px;
     }
 
 
+
+    /* media queries starts from here */
+      
+    
+    
+    @media only screen and (min-width:320px) and (max-width:767px)
+    {
+        .buttons3
+        {
+            text-align: center;
+        }
+
+        .info-btn2
+        {
+            margin-left: 0px;
+            margin: 20px;
+        }
+
+        .info-buttons
+        {
+            text-align: center;
+        }
+    }
+
+
+                                 /* end of page */
 
 
 

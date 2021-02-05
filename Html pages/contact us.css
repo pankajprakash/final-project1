@@ -83,6 +83,213 @@ h1{
     padding: 20px;
 }
 
-span{
+.bottom_border_heading1{
     border-bottom:3px solid #ea144e;
 }
+
+
+.right-logIn{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 16px;
+    margin-left: -30px;
+    padding: 20PX;
+    box-shadow:#cecece 1px 1px 9px 15px;
+
+
+    position: absolute;
+    /* top: 0px; */
+    /* left:0px; */
+    /* z-index: -1 */
+}
+
+.right_wrap
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+
+
+
+
+
+
+.info-heading{
+    text-align: center;
+    color:#fff;
+    padding-top: 20px;
+    
+}
+.info-btns
+{  
+     /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info-buttons{
+    /* text-align: center;
+    display: flex; */
+    padding: 5px;
+    
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+.btn-group{
+    padding: 15px 80px;
+    /* border: 2px solid #fff; */
+    color: white;
+    
+
+    
+}
+
+.info-btn1{
+    border: 2px solid white;
+    clip-path: polygon(0, 0, 100% 0, 87% 100%, 0% 100%);
+    color: #fff;
+
+}
+.info-btn1:hover{
+text-decoration: none;
+
+}
+
+.info-btn2{
+    background-color:#fff;
+    border: 2px solid #fff;
+    margin-left: -56px;
+    clip-path: polygon(18% 0, 100% 0, 100% 100%, 0% 100%);
+    color:#ea144e;
+   
+}
+
+.info-btn2:hover{
+   
+    text-decoration: none;
+}
+    
+.fourth-half-content
+{
+padding-bottom: 20px;
+background-color: #ea144e;
+
+
+/* position:absolute;
+top:0px;
+left:0px;
+z-index: ; */
+}
+
+
+
+
+/* footer css */
+.mainFooter{
+    background-color: #cecece;
+    padding: 30px 0px;
+    }
+    
+    .footerLeft ul li{
+        display: inline;
+        list-style-type: none;
+        padding: 0px 10px;
+        border-right: 1px solid #3f3f3f;
+        margin: 0;
+        
+    }
+    .footerLeft ul li a{
+        
+    }
+    
+    .footerRight ul li{
+        display: inline;
+        list-style-type: none;
+        
+        
+    }
+    
+    .footerRight ul li a{
+        color: #3f3f3f;
+        padding: 5px;
+    }
+
+    .footerRight {
+
+        display:flex;
+        justify-content: flex-end;
+     
+     
+     }
+
+
+
+    @media only screen and (min-width: 320px) and (max-width: 767px)
+{
+  .right-logIn
+  {
+      position:unset;
+      /* padding: 67px; */
+      box-shadow: none;
+  }
+
+  .info-btn2 {
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin-left: 0px;
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+    color: #ea144e;
+    width: 83%;
+    
+}
+
+
+.buttons
+{
+    width: 100%;
+    text-align: center;
+}
+
+.info-btn2{
+    width: 58%;
+    margin:20px;
+}
+
+
+
+
+.form-content{
+    text-align: center;
+}
+
+
+.right-logIn
+{
+    margin: 0px;
+}
+.right-logIn-contents
+{
+    text-align: center;
+}
+
+
+
+.footerLeft ul li {
+
+    display: block;
+
+
+}
+
+
+
+}
+

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+
+}
+ul li{
+    margin: 0;
+    padding: 0;
+}
+.mainHead{
+    
+    position:absolute;
+    width: 100%;
+    top:36px;
+    left: 0px;
+    z-index: 99;
+}
+
+h1{
+    font-size: 38px;
+}
+/* Header start Here */
+
+
+.outerHeader{
+    position: relative;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+.leftlogin
+{
+    border: 2px solid #ea144e;
+    padding: 8px 143px ;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.register-btn{
+    /* border-radius: 5px; */
+    padding: 8px 8px ;
+    background: rgb(254,251,250);
+    background: linear-gradient(101deg, rgba(254,251,250,1) 0%, rgba(229,95,28,1) 0%, rgba(232,36,76,1) 100%);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 2px;
+    
+}
+
+.register
+{
+    
+    color: linear-gradient(101deg, rgba(254,251,250,1) 0%, rgba(229,95,28,1) 0%, rgba(232,36,76,1) 100%);
+}
+
+
+/* Header Ends Here */
+
+
+
+.left_side
+{
+    background-color: black;
+    /* height: 500px; */
+}
+
+
+
+.right_banner
+{
+background-image: url("/sidekick/Blog/header_image.png");
+height: 616px;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.left_banner
+{
+    background-color: black;
+    /* height: 530px; */
+    padding:60px;
+    padding-top: 80px;
+}
+
+
+.contents
+{
+    color: white;
+    padding-top: 100px;
+    padding-left: 65px;
+}
+
+.border-content
+{
+    border-bottom: 2px solid white;
+   
+}
+
+.left_baner1
+{
+ 
+    padding: 30px;
+   
+}
+
+.right_banner1
+{
+    padding-top: 100px;
+    
+}
+
+.left-banner2
+{
+    padding-top: 80px;
+}
+
+.right-banner2
+{
+padding: 30px;  
+    
+}
+
+.register-btn
+{
+    padding: 7px 20px;
+}
+
+.social ul li
+{
+    list-style: none;
+    float: right;
+    display: inline;
+    list-style: none;
+    margin-left: 50px ;
+
+
+}
+
+.social ul li a
+{
+    padding: 0px 5px;
+    display: inline;
+
+}
+
+.line
+{
+    border: 1px solid white;
+    width: 150px;
+    padding: 0;
+}
+
+
+
+/* footer css */
+.mainFooter{
+    background-color: #cecece;
+    padding: 30px 0px;
+    }
+    
+    .footerLeft ul li{
+        display: inline;
+        list-style-type: none;
+        padding: 0px 10px;
+        border-right: 1px solid #3f3f3f;
+        margin: 0;
+        
+    }
+    .footerLeft ul li a{
+        
+    }
+    
+    .footerRight ul li{
+        display: inline;
+        list-style-type: none;
+        
+        
+    }
+    
+    .footerRight ul li a{
+        color: #3f3f3f;
+        padding: 5px;
+    }
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px)
+{
+
+    .right_image
+    {
+        width: 100%;
+    }
+
+
+    .left_banner
+    {
+        padding-top: 100px;
+        text-align:initial;
+       
+    }
+
+    .right_banner1{
+        padding: 0;
+    }
+
+    .left-banner2{
+        padding: 0;
+    }
+
+
+}
+
+
+
